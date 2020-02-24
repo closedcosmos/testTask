@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Ehitise aadress",
+        "info": "Ehitise aadress",
+        "value": "Rapla maakond, Kehtna vald, Keava alevik, Keave tee 4",
+        "ehr": "",
+        "type": "read"
+    },
+    {
+        "name": "Ehitisregistreri kood",
+        "info": "Ehitisregistreri kood",
+        "value": "109003398",
+        "ehr": "",
+        "type": "read"
+    },
+    {
+        "name": "Ehitise liik",
+        "info": "Ehitise liik",
+        "value": "Hoone",
+        "ehr": "",
+        "type": "read"
+    },
+    {
+        "name": "Ehitise seisund",
+        "info": "Ehitise seisund",
+        "value": "kasutusel",
+        "ehr": "",
+        "type": "read"
+    },
+    {
+        "name": "Ehitise nimetus",
+        "info": "Ehitise nimetus",
+        "value": "",
+        "ehr": "elamu",
+        "type": "input"
+    },
+    {
+        "name": "Omandi liik",
+        "info": "Omandi liik",
+        "value": "",
+        "ehr": "kinnisasi",
+        "type": "select",
+        "options": [
+            {"code": "1", "texts": "kinnisasi"},
+            {"code": "2", "texts": "kinnisasi 1"},
+            {"code": "3", "texts": "kinnisasi 2"},
+            {"code": "4", "texts": "kinnisasi 3"}
+        ]
+    },
+    {
+        "name": "Esmase kasutuselevoty aasta",
+        "info": "Esmase kasutuselevoty aasta",
+        "value": "",
+        "ehr": "1936",
+        "type": "number",
+        "subField": "Esmase kasutuselevotu aasta on oletuslik"
+    },
+    {
+        "name": "Ajutise ehitise kavandatav kasutamise lopp",
+        "info": "Ajutise ehitise kavandatav kasutamise lopp",
+        "value": "",
+        "ehr": "",
+        "type": "date"
+    }
+]
