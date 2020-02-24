@@ -59,26 +59,30 @@
 }
 
 .form-line > div:nth-child(2) {
+    width: 10px;
+}
+
+.form-line > div:nth-child(3) {
     width: 40px;
 }
 
-.form-line > div:nth-child(3), .form-line > div:nth-child(3) input, .form-line > div:nth-child(3) div {
+.form-line > div:nth-child(4), .form-line > div:nth-child(4) input, .form-line > div:nth-child(4) div {
     width: 400px;
 }
 
-.form-line > div:nth-child(3) p {
+.form-line > div:nth-child(4) p {
     padding: 0;
 }
 
-.form-line > div:nth-child(4) {
+.form-line > div:nth-child(5) {
     width: 130px;
 }
 
-.form-line > div:nth-child(4) > p {
+.form-line > div:nth-child(5) > p {
     color: gray;
 }
 
-.form-line > div:nth-child(5) {
+.form-line > div:nth-child(6) {
     width: 350px;
 }
 
@@ -89,4 +93,8 @@
 .form {
     width: 1200px;
     height: 450px;
+}
+
+.red {
+    color: red;
 }

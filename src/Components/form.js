@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Section, Readonly, Info} from 'mta-react-common-visuals';
 import Data from '../Data/data.json';
 import Value from './value.js';
+import Important from './important.js';
 
 class Form extends Component {
     render() {
@@ -13,6 +14,7 @@ class Form extends Component {
                             <div className="form-line">
                                 <div></div>
                                 <div></div>
+                                <div></div>
                                 <div><Readonly value={'Taotluse andmed'} /></div>
                                 <div><Readonly value={'EHR andmed'} /></div>
                                 <div></div>
@@ -21,6 +23,7 @@ class Form extends Component {
                                 return (
                                     <div className="form-line" key={index}>
                                         <div><Readonly value={item.name} /></div>
+                                        <div><Important item={item} /></div>
                                         <div><Info tooltipText={item.info} /></div>
                                         <Value item={item}/>
                                     </div>

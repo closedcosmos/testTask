@@ -32,7 +32,8 @@
         "info": "Ehitise nimetus",
         "value": "",
         "ehr": "elamu",
-        "type": "input"
+        "type": "input",
+        "important": true
     },
     {
         "name": "Omandi liik",
@@ -40,6 +41,7 @@
         "value": "",
         "ehr": "kinnisasi",
         "type": "select",
+        "important": true,
         "options": [
             {"code": "1", "texts": "kinnisasi"},
             {"code": "2", "texts": "kinnisasi 1"},
