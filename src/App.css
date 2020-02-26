@@ -1,5 +1,6 @@
 @import '~mta-react-common-visuals/build/static/css/mta_visuaal.css';
 
+
 .App {
   text-align: center;
 }
@@ -39,62 +40,51 @@
   }
 }
 
-.form-line {
-    display: block;
-    height: 45px;
+.form-row {
+    display: flex;
+    align-items: center;
+    min-height: 40px;
 }
 
-.form-line div {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.form-line > div:nth-child(1) {
-    width: 200px;
-}
-
-.form-line > div:nth-child(1) > p {
-    text-align: right;
-    padding: 0;
-}
-
-.form-line > div:nth-child(2) {
-    width: 10px;
-}
-
-.form-line > div:nth-child(3) {
-    width: 40px;
-}
-
-.form-line > div:nth-child(4), .form-line > div:nth-child(4) input, .form-line > div:nth-child(4) div {
-    width: 400px;
-}
-
-.form-line > div:nth-child(4) p {
-    padding: 0;
-}
-
-.form-line > div:nth-child(5) {
-    width: 130px;
-}
-
-.form-line > div:nth-child(5) > p {
-    color: gray;
-}
-
-.form-line > div:nth-child(6) {
-    width: 350px;
-}
-
-.form-section {
-    overflow: auto;
-}
-
-.form {
-    width: 1200px;
-    height: 450px;
+.inline {
+    display: inline-flex;
+    align-items: center;
 }
 
 .red {
     color: red;
+}
+
+.gray p {
+    color: gray;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.right p {
+    text-align: right;
+}
+
+.custom-section, .form {
+    margin: 0 15px!important;
+}
+
+.custom-control {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 599px) {
+    .right {
+        justify-content: flex-start;
+    }
+
+    .right p {
+        text-align: left;
+    }
+    .form-row {
+        padding: 15px 0
+    }
 }
